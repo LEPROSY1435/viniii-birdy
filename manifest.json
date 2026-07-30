@@ -1,0 +1,10 @@
+{
+  "name": "Vinny Bird",
+  "short_name": "Vinny",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#070b16",
+  "theme_color": "#1586ff",
+  "orientation": "portrait",
+  "description": "A Flappy Bird-style game that opens directly on your phone."
+}
