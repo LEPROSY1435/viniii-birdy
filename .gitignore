@@ -7,28 +7,68 @@ local.properties
 
 # Log/OS Files
 *.log
+.DS_Store
 
 # Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
+.idea/
+.classpath
+.c9/
+*.class
+*.dex
+*.ear
+*.jar
+*.o
+*.obj
+*.so
+*.swp
+*.swo
+*~
+.env
+.gradle
+.history
+.svn
+migrations/
 
 # IntelliJ
 *.iml
+*.iws
+*.ipr
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
 
-# Keystore files
-*.jks
-*.keystore
+# the idea folder has been added to .gitignore
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# Comment next line if keeping position info for git history's sakes (see github issue #8147)
+.idea/workspace.xml
 
-# Android Profiling
-*.hprof
+# gradle/wrapper/gradle-wrapper.properties
+
+# Bundle the gradle wrapper jar
+# gradle/wrapper/gradle-wrapper.jar
+
+# Mac
+.DS_Store
+
+# Generated files
+bin/
+gen/
+out/
+
+# Ignore gradle files
+.gradle/
+build/
+
+# Ignore .classpath, .project files in Eclipse
+.classpath
+.project
+
+# other
+*.swp
+*.swo
+*~.nib
+
+.cproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+gradle/
+key.properties

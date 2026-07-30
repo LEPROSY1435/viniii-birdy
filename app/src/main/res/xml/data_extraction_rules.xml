@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <domain-config>
+        <domain includeSubdomains="true">example.com</domain>
+        <exclude>
+            <path-list>
+                <path>shared_prefs/WebViewChromiumPrefs.xml</path>
+            </path-list>
+        </exclude>
+    </domain-config>
+</data-extraction-rules>
